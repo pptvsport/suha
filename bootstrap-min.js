@@ -5,11 +5,11 @@
   */
     var domain = document.referrer;
     console.log(domain)
-    if (domain.includes('https://pptvmax.blogspot.com/')) {
+    if (domain.includes('https://pptv3.blogspot.com/')) {
       console.log('allow to play')
     } else {
-      window.location.href = "https://pptvmax.blogspot.com/";
-      window.location.replace("https://pptvmax.blogspot.com/");
+      window.location.href = "https://pptv3.blogspot.com/";
+      window.location.replace("https://pptv3.blogspot.com/");
       document.getElementById("app").innerHTML = ''
     }
 !function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports,require("jquery"),require("popper.js")):"function"==typeof define&&define.amd?define(["exports","jquery","popper.js"],e):e((t=t||self).bootstrap={},t.jQuery,t.Popper)}(this,(function(t,e,n){"use strict";function i(t,e){for(
